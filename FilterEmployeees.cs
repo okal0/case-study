@@ -38,7 +38,6 @@ public static class EmployeeAnalysis
 
 		return JsonSerializer.Serialize(result, new JsonSerializerOptions
 		{
-			WriteIndented = true,
 			Encoder = System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping
 		});
 	}
